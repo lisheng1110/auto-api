@@ -173,7 +173,7 @@ def test_add_Order_sign(pub_data):  # 签名下单
     pub_data["sign"]=sign
     json_data = '''
   {
-  "ordeerPrice": 20000,
+  "ordeerPrice": 2000
   "orderLineList": [
     {
       "qty": 2,
